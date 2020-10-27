@@ -1,0 +1,44 @@
+*{
+  font-family: 'Amstelvar Alpha', times;
+}
+#article img{
+  max-width:600px;
+}
+#grid{
+  display: grid;
+  grid-template-columns: 150px 1fr
+}
+#grid ul{
+  border-right: 1px solid gray;
+  width: 100px;
+  margin: 0;
+  padding-top: 20px;
+  padding-left: 35px;
+  padding-right: 0;
+}
+#article{
+  padding-left: 25px;
+  padding-right: 50px;
+}
+body{
+  margin: 0;
+}
+h1 {
+  font-size: 35px;
+  text-align: center;
+  border-bottom: 1px solid gray;
+  margin: 0px;
+  padding: 10px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+@media (max-width: 500px) {
+  #grid{
+    display: block;
+  }
+  #grid ul{
+    border-right: none;
+  }
+}
